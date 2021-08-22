@@ -1,0 +1,174 @@
+.wrap { 
+  display: block; 
+  margin: 20px auto 20px auto; 
+  height: 290px; 
+  width: 500px; 
+  background-color: white; 
+  border: 1px solid black; 
+}
+.column1 { 
+  background-image: url(https://imgur.com/rJs1AlM.png); 
+  background-repeat: no-repeat; 
+  display: block; 
+  float: left; 
+  margin: 0px; 
+  background-color: black; 
+  height: 100%; 
+  width: 17%; 
+}
+.white-part { 
+  display: inline-block; 
+  background-color: white; 
+  height: 290px; 
+  width: 328px; 
+}
+.iconcito { 
+  display: flex; 
+  justify-content: center; 
+  color: #FE0000; 
+  font-size: 20px; 
+  margin: 15px 0px 8px 0px; 
+}
+.titulo { 
+  cursor: default;  
+  display: block; 
+  font-family: 'Playfair Display'; 
+  text-transform: uppercase; 
+  color: black; 
+  text-align: center; 
+  font-size: 19px; 
+  font-weight: 700; 
+} 
+.sub-titulo { 
+  cursor: default; 
+  display: flex; 
+  justify-content: center; 
+  text-align: center; 
+  margin: 2px 0 10px 0; 
+  padding: 0 30px 0 30px; 
+  color: black; 
+  font-family: 'Montserrat', sans-serif; 
+  font-weight: 300; 
+  font-size: 13px; 
+  letter-spacing: 2px; 
+  line-height: 1.1; 
+}
+.divider { 
+  cursor: default; 
+  display: block; 
+  text-align: center; 
+  margin: auto; 
+  background-color: #FE0000; 
+  height: 3px; 
+  width: 30px; 
+}
+.container2 { 
+  display: block; 
+  justify-content: center; 
+  margin: 10px auto 10px auto; 
+  height: 117px; 
+  width: 90%; 
+}
+.recordatorio { 
+  cursor: default; 
+  display: block; 
+  text-align: center; 
+  margin: auto; 
+  padding: 2px 6px 3px 6px; 
+  font-family: 'Playfair Display'; 
+  color: white; 
+  background-color: black; 
+  outline: 1px solid black; 
+  font-size: 13px; 
+  font-weight: 700; 
+  letter-spacing: 1px; 
+  transition: all .4s ease-in; 
+}
+.recordatorio:hover { 
+  color: black; 
+  background-color: white; 
+  transition: all .4s ease-in; 
+} 
+.recordatorio:before { 
+  content: url(https://imgur.com/n2opAIV.png); 
+  margin-right: 5px; 
+  position: relative; 
+  top: 1px; 
+}
+.post ul { 
+  padding-left: 15px; 
+  list-style-type: none; 
+}
+.content ol, .content ul { 
+  margin: 20px 0; 
+}
+.post ul a { 
+  font-family: 'Montserrat', sans-serif; 
+  font-size: 14px; 
+  font-weight: 500; 
+  color: #000; 
+  transition: all .4s ease-in; 
+}
+ul a:hover { 
+  color: #FE0000; 
+  transition: all .4s ease-in; 
+}
+li { 
+  margin-bottom: 1px; 
+} 
+.header { 
+  margin-top: 20px; 
+} 
+.header:before { 
+  display: flex; 
+  justify-content: center; 
+  content: url(https://imgur.com/r7cAcR5.png); 
+  margin-bottom: 10px;
+}
+::selection { 
+  color: white; 
+  background: red; 
+} 
+.puntitos { 
+  display: block; 
+  float: left; 
+  background-color: white; 
+  width: 10px; 
+  height: 16px; 
+  border-left: 4px dotted black; 
+}
+.contenedor-frasesita { 
+  display: block; 
+  background-color: white; 
+  text-align: center; 
+  border-top: 1px solid black;  
+  height: 45px; 
+  padding: 9px 8px; 
+  overflow: hidden; 
+}
+.frasesita { 
+  cursor: default; 
+  font-family: 'Montserrat'; 
+  color: black; 
+  font-size: 14px; 
+  font-weight: 300; 
+  line-height: 1.1; 
+  vertical-align: middle; 
+} 
+.frasesita b { 
+  font-weight: 600; 
+  color: red; 
+}
+.frasesita:before { 
+  content: '"'; 
+  font-size: 18px; 
+  color: red; 
+  font-weight: 600; 
+} 
+.frasesita:after { 
+  content: '"'; 
+  margin-left: 5px; 
+  font-size: 18px; 
+  color: red; 
+  font-weight: 600; 
+}
